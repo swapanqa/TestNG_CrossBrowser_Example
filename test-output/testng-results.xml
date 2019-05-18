@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="4996" started-at="2019-05-17T11:30:07Z" finished-at="2019-05-17T11:30:12Z">
+    <groups>
+    </groups>
+    <test name="TestonChome" duration-ms="2729" started-at="2019-05-17T11:30:07Z" finished-at="2019-05-17T11:30:09Z">
+      <class name="com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo@68c4039c]" name="setUp" is-config="true" duration-ms="1580" started-at="2019-05-17T11:30:07Z" finished-at="2019-05-17T11:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo@68c4039c]" name="test1" duration-ms="1051" started-at="2019-05-17T11:30:08Z" finished-at="2019-05-17T11:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo@68c4039c]" name="tearDown" is-config="true" duration-ms="86" started-at="2019-05-17T11:30:09Z" finished-at="2019-05-17T11:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo -->
+    </test> <!-- TestonChome -->
+    <test name="TestonFirefox" duration-ms="4996" started-at="2019-05-17T11:30:07Z" finished-at="2019-05-17T11:30:12Z">
+      <class name="com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo@6eebc39e]" name="setUp" is-config="true" duration-ms="2933" started-at="2019-05-17T11:30:07Z" finished-at="2019-05-17T11:30:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo@6eebc39e]" name="test1" duration-ms="1581" started-at="2019-05-17T11:30:10Z" finished-at="2019-05-17T11:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo@6eebc39e]" name="tearDown" is-config="true" duration-ms="480" started-at="2019-05-17T11:30:11Z" finished-at="2019-05-17T11:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testNGMultiBrowser.com.testNGMultiBrowserTest.TestNGMultiBrowserDemo -->
+    </test> <!-- TestonFirefox -->
+  </suite> <!-- Suite1 -->
+</testng-results>
